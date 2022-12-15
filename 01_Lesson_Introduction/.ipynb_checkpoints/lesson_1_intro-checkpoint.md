@@ -76,35 +76,35 @@ Open your terminal or command prompt(cmd) and write:
 python
 ```
 
-![Python Scripting Shell](./images/opening_python_shell.png)
+![Python Scripting Shell](../images/opening_python_shell.png)
 
 The Python interactive shell is opened and it is waiting for you to write Python code(Python script). You will write your Python script next to this symbol >>> and then click Enter.
 Let us write our very first script on the Python scripting shell.
 
-![Python script on Python shell](./images/adding_on_python_shell.png)
+![Python script on Python shell](../images/adding_on_python_shell.png)
 
 Well done, you wrote your first Python script on Python interactive shell. How do we close the Python interactive shell ?
 To close the shell, next to this symbol >> write **exit()** command and press Enter.
 
-![Exit from python shell](./images/exit_from_shell.png)
+![Exit from python shell](../images/exit_from_shell.png)
 
 Now, you know how to open the Python interactive shell and how to exit from it.
 
 Python will give you results if you write scripts that Python understands, if not it returns errors. Let's make a deliberate mistake and see what Python will return.
 
-![Invalid Syntax Error](./images/invalid_syntax_error.png)
+![Invalid Syntax Error](../images/invalid_syntax_error.png)
 
 As you can see from the returned error, Python is so clever that it knows the mistake we made and which was _Syntax Error: invalid syntax_. Using x as multiplication in Python is a syntax error because (x) is not a valid syntax in Python. Instead of (**x**) we use asterisk (*) for multiplication. The returned error clearly shows what to fix.
 
 The process of identifying and removing errors from a program is called *debugging*. Let us debug it by putting * in place of **x**.
 
-![Fixing Syntax Error](./images/fixing_syntax_error.png)
+![Fixing Syntax Error](../images/fixing_syntax_error.png)
 
 Our bug was fixed, the code ran and we got a result we were expecting. As a programmer you will see such kind of errors on daily basis. It is good to know how to debug. To be good at debugging you should understand what kind of errors you are facing. Some of the Python errors you may encounter are *SyntaxError*, *IndexError*, *NameError*, *ModuleNotFoundError*, *KeyError*, *ImportError*, *AttributeError*, *TypeError*, *ValueError*, *ZeroDivisionError* etc. We will see more about different Python **_error types_** in later sections.
 
 Let us practice more how to use Python interactive shell. Go to your terminal or command prompt and write the word **python**.
 
-![Python Scripting Shell](./images/opening_python_shell.png)
+![Python Scripting Shell](../images/opening_python_shell.png)
 
 The Python interactive shell is opened. Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus,  exponential).
 
@@ -131,17 +131,17 @@ This is how you write a comment in python
  # this is a python comment, because it starts with a (#) symbol
 ```
 
-![Maths on python shell](./images/maths_on_python_shell.png)
+![Maths on python shell](../images/maths_on_python_shell.png)
 
 Before we move on to the next section, let us practice more on the Python interactive shell. Close the opened shell by writing _exit()_ on the shell and open it again and let us practice how to write text on the Python shell.
 
-![Writing String on python shell](./images/writing_string_on_shell.png)
+![Writing String on python shell](../images/writing_string_on_shell.png)
 
 ### Installing Visual Studio Code
 
 The Python interactive shell is good to try and test small script codes but it will not be for a big project. In real work environment, developers use different code editors to write codes. In this course we will use visual studio code. Visual studio code is a very popular open source text editor. I am a fan of vscode and I would recommend to [download](https://code.visualstudio.com/) visual studio code, but if you are in favor of other editors, feel free to follow with what you have.
 
-[![Visual Studio Code](./images/vscode.png)](https://code.visualstudio.com/)
+[![Visual Studio Code](../images/vscode.png)](https://code.visualstudio.com/)
 
 If you installed visual studio code, let us see how to use it.
 If you prefer a video, you can follow this Visual Studio Code for Python [Video tutorial](https://www.youtube.com/watch?v=bn7Cx4z-vSo)
@@ -150,21 +150,21 @@ If you prefer a video, you can follow this Visual Studio Code for Python [Video 
 
 Open the visual studio code by double clicking the visual studio icon. When you open it you will get this kind of interface. Try to interact with the labeled icons.
 
-![Visual studio Code](./images/vscode_ui.png)
+![Visual studio Code](../images/vscode_ui.png)
 
 Create a folder named PythonProgramming on your desktop or other folders on your PC. Then open it using visual studio code.
 
-![Opening Project on Visual studio](./images/how_to_open_project_on_vscode.png)
+![Opening Project on Visual studio](../images/how_to_open_project_on_vscode.png)
 
-![Opening a project](./images/opening_project.png)
+![Opening a project](../images/opening_project.png)
 
 After opening it you will see shortcuts for creating files and folders inside of PythonProgramming project's directory. As you can see below, I have created the very first file, helloworld.py. You can do the same.
 
-![Creating a python file](./images/helloworld.png)
+![Creating a python file](../images/helloworld.png)
 
 After a long day of coding, you want to close your code editor, right? This is how you will close the opened project.
 
-![Closing project](./images/closing_opened_project.png)
+![Closing project](../images/closing_opened_project.png)
 
 Congratulations, you have finished setting up the development environment. Let us start coding.
 
@@ -178,7 +178,7 @@ A Python script can be written in Python interactive shell or in the code editor
 
 An indentation is a white space in a text. Indentation in many languages is used to increase code readability, however Python uses indentation to create block of codes. In other programming languages curly brackets are used to create blocks of codes instead of indentation. One of the common bugs when writing python code is wrong indentation.
 
-![Indentation Error](./images/indentation.png)
+![Indentation Error](../images/indentation.png)
 
 ### Comments
 
@@ -305,7 +305,7 @@ In later sections, we will go in detail about each and every Python data type.
 
 To check the data type of certain data/variable we use the **type** function. In the following terminal you will see different python data types:
 
-![Checking Data types](./images/checking_data_types.png)
+![Checking Data types](../images/checking_data_types.png)
 
 ### Python File
 
@@ -341,7 +341,7 @@ print(type((9.8, 3.14, 2.7)))    # Tuple
 
 To run the python file check the image below. You can run the python file either by running the green button on Visual Studio Code or by typing *python helloworld.py* in the terminal .
 
-![Running python script](./images/running_python_script.png)
+![Running python script](../images/running_python_script.png)
 
 🌕  You are amazing. You have just completed lesson 1 and you are on your way to greatness. Now do some exercises for your brain and muscles.
 
@@ -382,4 +382,4 @@ To run the python file check the image below. You can run the python file either
 1. Write an example for different Python data types such as Number(Integer, Float, Complex), String, Boolean, List, Tuple, Set and Dictionary.
 2. Find an [Euclidian distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
 
-🎉 CONGRATULATIONS ! 🎉
+🎉 CONGRATULATIONS ! 🎉 You have finished Lesson 1!
