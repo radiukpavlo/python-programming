@@ -1,9 +1,6 @@
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
-
-![30DaysOfPython](./images/30DaysOfPython_banner3@2x.png)
 
 - [🐍 Python Programming](#-python-programming)
-- [📘 Day 1](#-day-1)
+- [📘 Lesson 1](#-lesson-1)
   - [Welcome](#welcome)
   - [Introduction](#introduction)
   - [Why Python ?](#why-python-)
@@ -312,7 +309,7 @@ To check the data type of certain data/variable we use the **type** function. In
 
 ### Python File
 
-First open your project folder, 30DaysOfPython. If you don't have this folder, create a folder name called 30DaysOfPython. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
+First open your project folder, PythonProgramming. If you don't have this folder, create a folder name called PythonProgramming. Inside this folder, create a file called helloworld.py. Now, let's do what we did on python interactive shell using visual studio code.
 
 The Python interactive shell was printing without using **print** but on visual studio code to see our result we should use a built in function *print(). The *print()* built-in function takes one or more arguments as follows *print('arument1', 'argument2', 'argument3')*. See the examples below.
 
@@ -321,7 +318,7 @@ The Python interactive shell was printing without using **print** but on visual 
 The file name is helloworld.py
 
 ```py
-# Day 1 - 30DaysOfPython Challenge
+# Lesson 1 - PythonProgramming Challenge
 
 print(2 + 3)             # addition(+)
 print(3 - 1)             # subtraction(-)
@@ -346,9 +343,9 @@ To run the python file check the image below. You can run the python file either
 
 ![Running python script](./images/running_python_script.png)
 
-🌕  You are amazing. You have just completed day 1 challenge and you are on your way to greatness. Now do some exercises for your brain and muscles.
+🌕  You are amazing. You have just completed lesson 1 and you are on your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises - Day 1
+## 💻 Exercises - Lesson 1
 
 ### Exercise: Level 1
 
@@ -365,7 +362,7 @@ To run the python file check the image below. You can run the python file either
    - Your name
    - Your family name
    - Your country
-   - I am enjoying 30 days of python
+   - I am enjoying the Python Programming course
 4. Check the data types of the following data:
    - 10
    - 9.8
@@ -378,7 +375,7 @@ To run the python file check the image below. You can run the python file either
 
 ### Exercise: Level 2
 
-1. Create a folder named day_1 inside 30DaysOfPython folder. Inside day_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use _print()_ when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
+1. Create a folder named exercise_1 inside PythonProgramming folder. Inside exercise_1 folder, create a python file helloworld.py and repeat questions 1, 2, 3 and 4. Remember to use _print()_ when you are working on a python file. Navigate to the directory where you have saved your file, and run it.
 
 ### Exercise: Level 3
 
@@ -386,5 +383,3 @@ To run the python file check the image below. You can run the python file either
 2. Find an [Euclidian distance](https://en.wikipedia.org/wiki/Euclidean_distance#:~:text=In%20mathematics%2C%20the%20Euclidean%20distance,being%20called%20the%20Pythagorean%20distance.) between (2, 3) and (10, 8)
 
 🎉 CONGRATULATIONS ! 🎉
-
-[Day 2 >>](./02_Day_Variables_builtin_functions/02_variables_builtin_functions.md)
