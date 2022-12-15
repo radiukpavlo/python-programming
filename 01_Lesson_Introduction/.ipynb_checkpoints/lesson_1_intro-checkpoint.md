@@ -1,6 +1,6 @@
 
 - [🐍 Python Programming](#-python-programming)
-- [📘 Lesson 1](#-lesson-1)
+- [📘 Lesson 1. Introduction to Python](#-lesson-1)
   - [Welcome](#welcome)
   - [Introduction](#introduction)
   - [Why Python ?](#why-python-)
