@@ -265,33 +265,15 @@ The perimeter of the triangle is 12
 14. _I hope this course is not full of jargon_. Use _in_ operator to check if _jargon_ is in the sentence.
 15. There is no 'on' in both dragon and python
 16. Find the length of the text _python_ and convert the value to float and convert it to string
-17. Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-18. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-19. Check if type of '10' is equal to type of 10
-20. Check if int('9.8') is equal to 10
-21. Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+17. Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
+18. Check if type of '10' is equal to type of 10
+19. Check if int('9.8') is equal to 10
+20. Write a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
 
 ```py
 Enter hours: 40
 Enter rate per hour: 28
 Your weekly earning is 1120
-```
-
-22. Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
-
-```py
-Enter number of years you have lived: 100
-You have lived for 3153600000 seconds.
-```
-
-23. Write a Python script that displays the following table
-
-```py
-1 1 1 1 1
-2 1 2 4 8
-3 1 3 9 27
-4 1 4 16 64
-5 1 5 25 125
 ```
 
 🎉 CONGRATULATIONS ! 🎉 You have finished lesson 3 of this course!
