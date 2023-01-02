@@ -1,24 +1,6 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 8 - Dictionaries</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+[<< Lesson 7 ](../07_Lesson_Sets/07_sets.md)
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
-</div>
-
-[<< Day 7 ](../07_Day_Sets/07_sets.md) | [Day 9 >>](../09_Day_Conditionals/09_conditionals.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
-- [📘 Day 8](#-day-8)
+- [📘 Lesson 8](#-lesson-8)
   - [Dictionaries](#dictionaries)
     - [Creating a Dictionary](#creating-a-dictionary)
     - [Dictionary Length](#dictionary-length)
@@ -33,9 +15,11 @@
     - [Copy a Dictionary](#copy-a-dictionary)
     - [Getting Dictionary Keys as a List](#getting-dictionary-keys-as-a-list)
     - [Getting Dictionary Values as a List](#getting-dictionary-values-as-a-list)
-  - [💻 Exercises: Day 8](#-exercises-day-8)
+  - [💻 Exercises: Lesson 8](#-exercises-lesson-8)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
 
-# 📘 Day 8
+# 📘 Lesson 8
 
 ## Dictionaries
 
@@ -135,6 +119,7 @@ print(person['city'])       # Error
 ```
 
 Accessing an item by key name raises an error if the key does not exist. To avoid this error first we have to check if a key exist or we can use the _get_ method. The get method returns None, which is a NoneType object data type, if the key does not exist.
+
 ```py
 person = {
     'first_name':'Asabeneh',
@@ -321,22 +306,26 @@ values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 ```
 
-🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed day 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
+🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed lesson 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
 
-## 💻 Exercises: Day 8
+## 💻 Exercises: lesson 8
+
+### Exercises: Level 1
 
 1. Create  an empty dictionary called dog
 2. Add name, color, breed, legs, age to the dog dictionary
 3. Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
 4. Get the length of the student dictionary
 5. Get the value of skills and check the data type, it should be a list
+
+### Exercises: Level 2
+
 6. Modify the skills values by adding one or two skills
 7. Get the dictionary keys as a list
 8. Get the dictionary values as a list
 9. Change the dictionary to a list of tuples using _items()_ method
 10. Delete one of the items in the dictionary
-11. Delete one of the dictionaries
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 7 ](../07_Day_Sets/07_sets.md) | [Day 9 >>](../09_Day_Conditionals/09_conditionals.md)
+[<< Lesson 7 ](../07_Lesson_Sets/07_sets.md)

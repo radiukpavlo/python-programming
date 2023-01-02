@@ -1,8 +1,6 @@
 [<< Lesson 4](../04_Lesson_Strings/lesson-04_strings.md)
 
-![30LessonsOfPython](../images/30LessonsOfPython_banner3@2x.png)
-
-- [lesson 5](#lesson-5)
+- [Lesson 5](#lesson-5)
   - [Lists](#lists)
     - [How to Create a List](#how-to-create-a-list)
     - [Accessing List Items Using Positive Indexing](#accessing-list-items-using-positive-indexing)
@@ -26,8 +24,9 @@
   - [💻 Exercises: Lesson 5](#-exercises-lesson-5)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 2](#exercises-level-3)
 
-# Lesson 5
+# 💻 Lesson 5
 
 ## Lists
 
@@ -156,6 +155,8 @@ print(rest)           # ['item4', 'item5']
 
 ```
 
+**Example:**
+
 ```py
 # First Example
 fruits = ['banana', 'orange', 'mango', 'lemon','lime','apple']
@@ -243,6 +244,8 @@ lst = list()
 lst.append(item)
 ```
 
+**Example:**
+
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.append('apple')
@@ -261,6 +264,8 @@ lst = ['item1', 'item2']
 lst.insert(index, item)
 ```
 
+**Example:**
+
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.insert(2, 'apple') # insert apple between orange and mango
@@ -278,6 +283,8 @@ The remove method removes a specified item from a list
 lst = ['item1', 'item2']
 lst.remove(item)
 ```
+
+**Example:**
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon', 'banana']
@@ -298,6 +305,8 @@ lst.pop()       # last item
 lst.pop(index)
 ```
 
+**Example:**
+
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.pop()
@@ -317,6 +326,8 @@ lst = ['item1', 'item2']
 del lst[index] # only a single item
 del lst        # to delete the list completely
 ```
+
+**Example:**
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
@@ -340,6 +351,8 @@ lst = ['item1', 'item2']
 lst.clear()
 ```
 
+**Example:**
+
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.clear()
@@ -355,6 +368,8 @@ It is possible to copy a list by reassigning it to a new variable in the followi
 lst = ['item1', 'item2']
 lst_copy = lst.copy()
 ```
+
+**Example:**
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -372,6 +387,8 @@ There are several ways to join, or concatenate, two or more lists in Python.
 # syntax
 list3 = list1 + list2
 ```
+
+**Example:**
 
 ```py
 positive_numbers = [1, 2, 3, 4, 5]
@@ -394,6 +411,8 @@ list1 = ['item1', 'item2']
 list2 = ['item3', 'item4', 'item5']
 list1.extend(list2)
 ```
+
+**Example:**
 
 ```py
 num1 = [0, 1, 2, 3]
@@ -423,6 +442,8 @@ lst = ['item1', 'item2']
 lst.count(item)
 ```
 
+**Example:**
+
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits.count('orange'))   # 1
@@ -439,6 +460,8 @@ The *index()* method returns the index of an item in the list:
 lst = ['item1', 'item2']
 lst.index(item)
 ```
+
+**Example:**
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -457,6 +480,8 @@ lst = ['item1', 'item2']
 lst.reverse()
 
 ```
+
+**Example:**
 
 ```py
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -527,33 +552,33 @@ To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _
 
 ### Exercises: Level 2
 
-1. Add an IT company to it_companies
-2. Insert an IT company in the middle of the companies list
-3. Change one of the it_companies names to uppercase (IBM excluded!)
-4. Join the it_companies with a string '#;&nbsp; '
-5. Check if a certain company exists in the it_companies list.
-6. Sort the list using sort() method
-7. Reverse the list in descending order using reverse() method
-8. Slice out the first 3 companies from the list
-9. Slice out the last 3 companies from the list
-10. Slice out the middle IT company or companies from the list
+11. Add an IT company to it_companies
+12. Insert an IT company in the middle of the companies list
+13. Change one of the it_companies names to uppercase (IBM excluded!)
+14. Join the it_companies with a string '#;&nbsp; '
+15. Check if a certain company exists in the it_companies list.
+16. Sort the list using sort() method
+17. Reverse the list in descending order using reverse() method
+18. Slice out the first 3 companies from the list
+19. Slice out the last 3 companies from the list
+20. Slice out the middle IT company or companies from the list
 
 ### Exercises: Level 3
 
 
-1. Remove the first IT company from the list
-2. Remove the last IT company from the list
-3. Remove all IT companies from the list
-4. Destroy the IT companies list
-5. Join the following lists:
+21. Remove the first IT company from the list
+22. Remove the last IT company from the list
+23. Remove all IT companies from the list
+24. Destroy the IT companies list
+25. Join the following lists:
 
 ```py
     front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
     back_end = ['Node','Express', 'MongoDB']
 ```
 
-6. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
-7. The following is a list of 10 students ages:
+26. After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+27. The following is a list of 10 students ages:
 
 ```sh
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -566,8 +591,10 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 - Find the range of the ages (max minus min)
 - Compare the value of (min - average) and (max - average), use _abs()_ method
 
-8. Find the middle country(ies) in the [countries list](https://github.com/radiukpavlo/python-programming/blob/main/data/countries.py)
-9. Divide the countries list into two equal lists if it is even if not one more country for the first half.
-10. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+28. Find the middle country(ies) in the [countries list](https://github.com/radiukpavlo/python-programming/blob/main/data/countries.py)
+29. Divide the countries list into two equal lists if it is even if not one more country for the first half.
+30. ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 
 🎉 CONGRATULATIONS ! 🎉
+
+[<< Lesson 4](../04_Lesson_Strings/lesson-04_strings.md)

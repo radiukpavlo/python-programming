@@ -1,24 +1,6 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 7 - Sets</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+[<< Lesson 6](../06_Lesson_Tuples/lesson-06_tuples.md)
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
-</div>
-
-[<< Day 6](../06_Day_Tuples/06_tuples.md) | [Day 8 >>](../08_Day_Dictionaries/08_dictionaries.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
-- [📘 Day 7](#-day-7)
+- [📘 Lesson 7](#-lesson-7)
   - [Sets](#sets)
     - [Creating a Set](#creating-a-set)
     - [Getting Set's Length](#getting-sets-length)
@@ -35,12 +17,12 @@
     - [Checking the Difference Between Two Sets](#checking-the-difference-between-two-sets)
     - [Finding Symmetric Difference Between Two Sets](#finding-symmetric-difference-between-two-sets)
     - [Joining Sets](#joining-sets-1)
-  - [💻 Exercises: Day 7](#-exercises-day-7)
+  - [💻 Exercises: Lesson 7](#-exercises-lesson-7)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
 
-# 📘 Day 7
+# 💻 Lesson 7
 
 ## Sets
 
@@ -173,7 +155,6 @@ If we are interested in the removed item.
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 removed_item = fruits.pop() 
 ```
-
 
 ### Clearing Items in a Set
 
@@ -391,9 +372,10 @@ dragon = {'d', 'r', 'a', 'g', 'o','n'}
 python.isdisjoint(dragon)  # False, there are common items {'o', 'n'}
 ```
 
-🌕 You are a rising star . You have just completed day 7 challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are a rising star . You have just completed lesson 7 challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 7
+
+## 💻 Exercises: lesson 7
 
 ```py
 # sets
@@ -413,21 +395,21 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 ### Exercises: Level 2
 
-1. Join A and B
-1. Find A intersection B
-1. Is A subset of B
-1. Are A and B disjoint sets
-1. Join A with B and B with A
-1. What is the symmetric difference between A and B
-1. Delete the sets completely
+6. Join A and B
+7. Find A intersection B
+8. Is A subset of B
+9. Are A and B disjoint sets
+10. Join A with B and B with A
 
 ### Exercises: Level 3
 
-1. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
-1. Explain the difference between the following data types: string, list, tuple and set
-2. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+11. What is the symmetric difference between A and B
+12. Delete the sets completely
+13. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+14. Explain the difference between the following data types: string, list, tuple and set
+15. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 6](../06_Day_Tuples/06_tuples.md) | [Day 8 >>](../08_Day_Dictionaries/08_dictionaries.md)
+[<< Lesson 6](../06_Lesson_Tuples/lesson-06_tuples.md)

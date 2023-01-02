@@ -16,9 +16,12 @@
       - [Reversing a String](#reversing-a-string)
       - [Skipping Characters While Slicing](#skipping-characters-while-slicing)
     - [String Methods](#string-methods)
-  - [💻 Exercises - Lesson 4](#-exercises---lesson-4)
+  - [💻 Exercises: Lesson 4](#-exercises-lesson-4)
+    - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 2](#exercises-level-2)
+    - [Exercises: Level 2](#exercises-level-3)
 
-# Lesson 4
+# 💻 Lesson 4
 
 ## Strings
 
@@ -38,6 +41,8 @@ print(sentence)
 ```
 
 Multiline string is created by using triple single (''') or triple double quotes ("""). See the example below.
+
+**Example:**
 
 ```py
 multiline_string = '''I am a teacher and enjoy teaching.
@@ -77,6 +82,8 @@ In Python and other programming languages \ followed by a character is an escape
 - \\": Double quote (")
 
 Now, let us see the use of the above escape sequences with examples.
+
+**Example:**
 
 ```py
 print('I hope everyone is enjoying the Python Programming course.\nAre you ?') # line break
@@ -222,6 +229,8 @@ print(last_letter) # n
 ```
 
 If we want to start from right end we can use negative indexing. -1 is the last index.
+
+**Example:**
 
 ```py
 language = 'Python'
@@ -529,42 +538,42 @@ print(course.startswith('thirty'))
 
 ### Exercises: Level 2
 
-1. Split the string 'Coding For All' using space as the separator (split()) .
-2. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
-3. What is the character at index 0 in the string _Coding For All_.
-4. What is the last index of the string _Coding For All_.
-5. What character is at index 10 in "Coding For All" string.
-6. Create an acronym or an abbreviation for the name 'Python For Everyone'.
-7. Create an acronym or an abbreviation for the name 'Coding For All'.
-8. Use index to determine the position of the first occurrence of C in Coding For All.
-9. Use index to determine the position of the first occurrence of F in Coding For All.
-10. Use rfind to determine the position of the last occurrence of l in Coding For All People.
-11. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-12. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+13. Split the string 'Coding For All' using space as the separator (split()) .
+14. "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+15. What is the character at index 0 in the string _Coding For All_.
+16. What is the last index of the string _Coding For All_.
+17. What character is at index 10 in "Coding For All" string.
+18. Create an acronym or an abbreviation for the name 'Python For Everyone'.
+19. Create an acronym or an abbreviation for the name 'Coding For All'.
+20. Use index to determine the position of the first occurrence of C in Coding For All.
+21. Use index to determine the position of the first occurrence of F in Coding For All.
+22. Use rfind to determine the position of the last occurrence of l in Coding For All People.
+23. Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+24. Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 
 ### Exercises: Level 3
 
-1. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-2. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-3. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-4. Does '\'Coding For All' start with a substring _Coding_?
-5. Does 'Coding For All' end with a substring _coding_?
-6. '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;' &nbsp;, remove the left and right trailing spaces in the given string.
-7. Which one of the following variables return True when we use the method isidentifier():
+25. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+26. Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+27. Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+28. Does '\'Coding For All' start with a substring _Coding_?
+29. Does 'Coding For All' end with a substring _coding_?
+30. '&nbsp;&nbsp; Coding For All &nbsp;&nbsp;&nbsp; &nbsp;' &nbsp;, remove the left and right trailing spaces in the given string.
+31. Which one of the following variables return True when we use the method isidentifier():
     - 30DaysOfPython
     - thirty_days_of_python
-8. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
-9. Use the new line escape sequence to separate the following sentences.
+32. The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+33. Use the new line escape sequence to separate the following sentences.
     ```py
     I am enjoying this challenge.
     I just wonder what is next.
     ```
-10. Use a tab escape sequence to write the following lines.
+34. Use a tab escape sequence to write the following lines.
     ```py
     Name      Age     Country   City
     Asabeneh  250     Finland   Helsinki
     ```
-11. Use the string formatting method to display the following:
+35. Use the string formatting method to display the following:
 
 ```sh
 radius = 10
@@ -572,7 +581,7 @@ area = 3.14 * radius ** 2
 The area of a circle with radius 10 is 314 meters square.
 ```
 
-12. Make the following using string formatting methods:
+36. Make the following using string formatting methods:
 
 ```sh
 8 + 6 = 14
@@ -585,3 +594,5 @@ The area of a circle with radius 10 is 314 meters square.
 ```
 
 🎉 CONGRATULATIONS ! 🎉
+
+[<< Lesson 3](../03_Lesson_Operators/lesson-03_operators.md)
