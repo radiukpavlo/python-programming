@@ -1,4 +1,4 @@
-[<< Lesson 9](../09_Lesson_Conditionals/09_conditionals.md)
+[<< Lesson 8](../08_Lesson_Dictionaries/lesson-08_dictionaries.md)
 
 - [📘 Lesson 9](#-lesson-9)
   - [Conditionals](#conditionals)

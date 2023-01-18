@@ -328,4 +328,4 @@ print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Lesson 7 ](../07_Lesson_Sets/07_sets.md)
+[Lesson 9 >>](../09_Lesson_Conditionals/09_conditionals.md)
