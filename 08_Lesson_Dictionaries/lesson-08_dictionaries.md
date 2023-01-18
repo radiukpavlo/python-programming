@@ -1,4 +1,4 @@
-[<< Lesson 7 ](../07_Lesson_Sets/07_sets.md)
+[<< lesson 7](../07_Lesson_Sets/lesson-07_sets.md)
 
 - [📘 Lesson 8](#-lesson-8)
   - [Dictionaries](#dictionaries)
