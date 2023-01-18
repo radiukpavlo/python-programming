@@ -255,4 +255,4 @@ Enter number two: 3
 
 🎉 CONGRATULATIONS ! 🎉
 
-[lesson 10 >>](../10_lesson_Loops/10_loops.md)
+[lesson 10 >>](../10_Lesson_Loops/10_loops.md)
