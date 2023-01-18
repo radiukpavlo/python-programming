@@ -10,7 +10,7 @@
     - [Checking an Item in a Tuple](#checking-an-item-in-a-tuple)
     - [Joining Tuples](#joining-tuples)
     - [Deleting Tuples](#deleting-tuples)
-  - [💻 Exercises: lesson 6](#-exercises-lesson-6)
+  - [💻 Exercises: Lesson 6](#-exercises-lesson-6)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
 
@@ -63,7 +63,8 @@ len(tpl)
 
 - Positive Indexing
   Similar to the list data type we use positive or negative indexing to access tuple items.
-  ![Accessing tuple items](../images/tuples_index.png)
+  
+![Accessing tuple items](../images/tuples_index.png)
 
   ```py
   # Syntax
@@ -84,7 +85,8 @@ len(tpl)
 
 - Negative indexing
   Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last and the negative of the list/tuple length refers to the first item.
-  ![Tuple Negative indexing](../images/tuple_negative_indexing.png)
+  
+![Tuple Negative indexing](../images/tuple_negative_indexing.png)
 
   ```py
   # Syntax

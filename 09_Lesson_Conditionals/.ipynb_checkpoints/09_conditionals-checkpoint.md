@@ -182,7 +182,7 @@ else:
 
 🌕 You are doing great.Never give up because great things take time. You have just completed lesson 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: lesson 9
+## 💻 Exercises: Lesson 9
 
 ### Exercises: Level 1
 

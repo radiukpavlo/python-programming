@@ -308,7 +308,7 @@ print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
 🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed lesson 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
 
-## 💻 Exercises: lesson 8
+## 💻 Exercises: Lesson 8
 
 ### Exercises: Level 1
 

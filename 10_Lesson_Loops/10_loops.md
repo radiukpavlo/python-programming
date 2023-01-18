@@ -10,7 +10,7 @@
     - [Nested For Loop](#nested-for-loop)
     - [For Else](#for-else)
     - [Pass](#pass)
-  - [💻 Exercises: lesson 10](#-exercises-lesson-10)
+  - [💻 Exercises: Lesson 10](#-exercises-lesson-10)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
@@ -364,7 +364,7 @@ for number in range(6):
 
 🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed lesson 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: lesson 10
+## 💻 Exercises: Lesson 10
 
 ### Exercises: Level 1
 
