@@ -13,7 +13,6 @@
   - [💻 Exercises: lesson 6](#-exercises-lesson-6)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 2](#exercises-level-3)
 
 # 💻 Lesson 6:
 
@@ -228,24 +227,19 @@ del fruits
 
 ### Exercises: Level 1
 
-1. Create an empty tuple.
-2. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine).
-3. Join _brothers_ and _sisters_ tuples and assign it to siblings.
-4. How many siblings do you have?
+1. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine).
+2. Join _brothers_ and _sisters_ tuples and assign it to siblings.
+3. Modify the _siblings_ tuple and add the name of your father and mother and assign it to _family_members_.
+4. Unpack siblings and parents from _family_members_.
+5. Create _fruits_, _vegetables_ and _animal_ products tuples. Join the three tuples and assign it to a variable called _food_stuff_tp_.
 
 ### Exercises: Level 2
 
-5. Modify the _siblings_ tuple and add the name of your father and mother and assign it to _family_members_.
-6. Unpack siblings and parents from _family_members_.
-7. Create _fruits_, _vegetables_ and _animal_ products tuples. Join the three tuples and assign it to a variable called _food_stuff_tp_.
-8. Change the about _food_stuff_tp_  tuple to a _food_stuff_lt list_.
-
-### Exercises: Level 3
-
-9. Slice out the middle item or items from the _food_stuff_tp_ tuple or _food_stuff_lt_ list.
-10. Slice out the first three items and the last three items from _food_staff_lt_ list.
-11. Delete the _food_staff_tp_ tuple completely.
-12. Check if an item exists in the tuple:
+6. Change the about _food_stuff_tp_  tuple to a _food_stuff_lt list_.
+7. Slice out the middle item or items from the _food_stuff_tp_ tuple or _food_stuff_lt_ list.
+8. Slice out the first three items and the last three items from _food_staff_lt_ list.
+9. Delete the _food_staff_tp_ tuple completely.
+10. Check if an item exists in the tuple:
 
 - Check if 'Estonia' is a nordic country;
 - Check if 'Iceland' is a nordic country;
@@ -256,4 +250,4 @@ del fruits
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< lesson 5](../05_lesson_Lists/lesson-05_lists.md)
+[lesson 7 >>](../07_Lesson_Sets/lesson-07_sets.md)

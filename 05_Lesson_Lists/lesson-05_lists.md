@@ -597,4 +597,4 @@ ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Lesson 4](../04_Lesson_Strings/lesson-04_strings.md)
+[Lesson 6 >>](../06_Lesson_Tuples/lesson-06_tuples.md)

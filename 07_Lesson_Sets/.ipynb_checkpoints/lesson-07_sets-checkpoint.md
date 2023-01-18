@@ -387,29 +387,21 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 ### Exercises: Level 1
 
-1. Find the length of the set it_companies
-2. Add 'Twitter' to it_companies
-3. Insert multiple IT companies at once to the set it_companies
-4. Remove one of the companies from the set it_companies
-5. What is the difference between remove and discard
+1. Find the length of the set _it_companies_.
+2. Add 'Twitter' to _it_companies_.
+3. Insert multiple IT companies at once to the _it_companies_ set.
+4. Remove one of the companies from the _it_companies_ set.
+5. What is the difference between remove and discard?
 
 ### Exercises: Level 2
 
-6. Join A and B
-7. Find A intersection B
-8. Is A subset of B
-9. Are A and B disjoint sets
-10. Join A with B and B with A
-
-### Exercises: Level 3
-
-11. What is the symmetric difference between A and B
-12. Delete the sets completely
-13. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
-14. Explain the difference between the following data types: string, list, tuple and set
-15. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+6. Join set A with set B and B with A.
+7. What is the symmetric difference between sets A and B?
+8. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+9. Explain the difference between the following data types: string, list, tuple and set.
+10. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Lesson 6](../06_Lesson_Tuples/lesson-06_tuples.md)
+[Lesson 8 >>](../08_Lesson_Dictionaries/lesson-08_dictionaries.md)

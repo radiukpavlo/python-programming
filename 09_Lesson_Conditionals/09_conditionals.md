@@ -1,24 +1,6 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 9 - Conditionals</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+[<< Lesson 9](../09_Lesson_Conditionals/09_conditionals.md)
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
-</div>
-
-[<< Day 8](../08_Day_Dictionaries/08_dictionaries.md) | [Day 10 >>](../10_Day_Loops/10_loops.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-
-- [📘 Day 9](#-day-9)
+- [📘 Lesson 9](#-lesson-9)
   - [Conditionals](#conditionals)
     - [If Condition](#if-condition)
     - [If Else](#if-else)
@@ -27,10 +9,12 @@
     - [Nested Conditions](#nested-conditions)
     - [If Condition and Logical Operators](#if-condition-and-logical-operators)
     - [If and Or Logical Operators](#if-and-or-logical-operators)
-  - [💻 Exercises: Day 9](#-exercises-day-9)
+  - [💻 Exercises: lesson 9](#-exercises-lesson-9)
     - [Exercises: Level 1](#exercises-level-1)
+    - [Exercises: Level 1](#exercises-level-2)
+    - [Exercises: Level 1](#exercises-level-3)
 
-# 📘 Day 9
+# 📘 Lesson 9
 
 ## Conditionals
 
@@ -196,9 +180,9 @@ else:
     print('Access denied!')
 ```
 
-🌕 You are doing great.Never give up because great things take time. You have just completed day 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are doing great.Never give up because great things take time. You have just completed lesson 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 9
+## 💻 Exercises: lesson 9
 
 ### Exercises: Level 1
 
@@ -223,38 +207,38 @@ Enter number two: 3
 4 is greater than 3
 ```
 
-    ### Exercises: Level 2
+### Exercises: Level 2
 
-   1. Write a code which gives grade to students according to theirs scores:
+4. Write a code which gives grade to students according to theirs scores:
    
-        ```sh
-        80-100, A
-        70-89, B
-        60-69, C
-        50-59, D
-        0-49, F
-        ```
-1. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
+    ```sh
+    80-100, A
+    70-89, B
+    60-69, C
+    50-59, D
+    0-49, F
+    ```
+5. Check if the season is Autumn, Winter, Spring or Summer. If the user input is:
     September, October or November, the season is Autumn.
     December, January or February, the season is Winter.
     March, April or May, the season is Spring
     June, July or August, the season is Summer
-2.  The following list contains some fruits:
+6.  The following list contains some fruits:
     ```sh
     fruits = ['banana', 'orange', 'mango', 'lemon']
     ```
     If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list') 
 
-    ### Exercises: Level 3
+### Exercises: Level 3
 
-   1. Here we have a person dictionary. Feel free to modify it!
+7. Here we have a person dictionary. Feel free to modify it!
    
 ```py
-        person={
-    'first_name': 'Asabeneh',
-    'last_name': 'Yetayeh',
-    'age': 250,
-    'country': 'Finland',
+     person={
+    'first_name': 'Pavlo',
+    'last_name': 'Radiuk',
+    'age': 100,
+    'country': 'Ukraine',
     'is_marred': True,
     'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
     'address': {
@@ -269,10 +253,6 @@ Enter number two: 3
      * If a person skills has only JavaScript and React, print('He is a front end developer'), if the person skills has Node, Python, MongoDB, print('He is a backend developer'), if the person skills has React, Node and MongoDB, Print('He is a fullstack developer'), else print('unknown title') - for more accurate results more conditions can be nested!
      * If the person is married and if he lives in Finland, print the information in the following format:
 
-```py
-    Asabeneh Yetayeh lives in Finland. He is married.
-```
-
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 8](../08_Day_Dictionaries/08_dictionaries.md) | [Day 10 >>](../10_Day_Loops/10_loops.md)
+[lesson 10 >>](../10_lesson_Loops/10_loops.md)
