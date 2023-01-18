@@ -14,7 +14,7 @@
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
 
-# 💻 Lesson 6:
+# 💻 Lesson 6
 
 ## Tuples
 
