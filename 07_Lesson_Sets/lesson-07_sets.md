@@ -399,7 +399,7 @@ age = [22, 19, 24, 25, 26, 24, 25, 24]
 7. What is the symmetric difference between sets A and B?
 8. Convert the ages to a set and compare the length of the list and the set, which one is bigger?
 9. Explain the difference between the following data types: string, list, tuple and set.
-10. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+10. _I am a teacher and I love to inspire and teach people._ How many unique words have been used in the sentence? Use the _split_ methods and set to get the unique words.
 
 
 🎉 CONGRATULATIONS ! 🎉

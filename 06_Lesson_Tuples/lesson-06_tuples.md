@@ -230,7 +230,7 @@ del fruits
 ### Exercises: Level 1
 
 1. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine).
-2. Join _brothers_ and _sisters_ tuples and assign it to siblings.
+2. Join _brothers_ and _sisters_ tuples and assign it to _siblings_.
 3. Modify the _siblings_ tuple and add the name of your father and mother and assign it to _family_members_.
 4. Unpack siblings and parents from _family_members_.
 5. Create _fruits_, _vegetables_ and _animal_ products tuples. Join the three tuples and assign it to a variable called _food_stuff_tp_.
