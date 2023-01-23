@@ -533,7 +533,7 @@ To sort lists we can use _sort()_ method or _sorted()_ built-in functions. The _
   print(fruits)     # ['orange', 'mango', 'lemon', 'banana']
   ```
 
-🌕 You are diligent and you have already achieved quite a lot. You have just completed lesson 5 challenges and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are diligent and you have already achieved quite a lot. You have just completed lesson 5 and you are 5 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises: Lesson 5
 

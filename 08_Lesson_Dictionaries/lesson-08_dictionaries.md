@@ -1,4 +1,4 @@
-[<< lesson 7](../07_Lesson_Sets/lesson-07_sets.md)
+[<< Lesson 7](../07_Lesson_Sets/lesson-07_sets.md)
 
 - [📘 Lesson 8](#-lesson-8)
   - [Dictionaries](#dictionaries)
@@ -306,7 +306,7 @@ values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 ```
 
-🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed lesson 8 challenges and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
+🌕 You are astonishing. Now, you are super charged with the power of dictionaries. You have just completed lesson 8 and you are 8 steps a head in to your way to greatness. Now do some exercises for your brain and  muscles.
 
 ## 💻 Exercises: Lesson 8
 
@@ -328,4 +328,4 @@ print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Lesson 9 >>](../09_Lesson_Conditionals/09_conditionals.md)
+[Lesson 9 >>](../09_Lesson_Conditionals/lesson-09_conditionals.md)

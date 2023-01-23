@@ -1,4 +1,4 @@
-[<< Lesson 9](../09_Lesson_Conditionals/09_conditionals.md)
+[<< Lesson 9](../09_Lesson_Conditionals/lesson-09_conditionals.md)
 
 - [📘 Lesson 10](#-lesson-10)
   - [Loops](#loops)
@@ -362,7 +362,7 @@ for number in range(6):
     pass
 ```
 
-🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed lesson 10 challenges and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You established a big milestone, you are unstoppable. Keep going! You have just completed lesson 10 and you are 10 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises: Lesson 10
 
@@ -429,4 +429,4 @@ for number in range(6):
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Lesson 11 >>](../11_lesson_Functions/11_functions.md)
+[Lesson 11 >>](../11_lesson_Functions/lesson-11_functions.md)

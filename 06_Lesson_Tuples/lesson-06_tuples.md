@@ -223,7 +223,7 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
 ```
 
-🌕 You are so brave, you made it to this far. You have just completed lesson 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are so brave, you made it to this far. You have just completed lesson 6 and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises: Lesson 6
 
@@ -252,4 +252,4 @@ del fruits
 
 🎉 CONGRATULATIONS ! 🎉
 
-[lesson 7 >>](../07_Lesson_Sets/lesson-07_sets.md)
+[Lesson 7 >>](../07_Lesson_Sets/lesson-07_sets.md)

@@ -12,7 +12,6 @@
   - [💻 Exercises: lesson 9](#-exercises-lesson-9)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 1](#exercises-level-2)
-    - [Exercises: Level 1](#exercises-level-3)
 
 # 📘 Lesson 9
 
@@ -180,7 +179,7 @@ else:
     print('Access denied!')
 ```
 
-🌕 You are doing great.Never give up because great things take time. You have just completed lesson 9 challenges and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are doing great.Never give up because great things take time. You have just completed lesson 9 and you are 9 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
 ## 💻 Exercises: Lesson 9
 
@@ -229,8 +228,6 @@ Enter number two: 3
     ```
     If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list') 
 
-### Exercises: Level 3
-
 7. Here we have a person dictionary. Feel free to modify it!
    
 ```py
@@ -255,4 +252,4 @@ Enter number two: 3
 
 🎉 CONGRATULATIONS ! 🎉
 
-[lesson 10 >>](../10_Lesson_Loops/10_loops.md)
+[lesson 10 >>](../10_Lesson_Loops/lesson-10_loops.md)

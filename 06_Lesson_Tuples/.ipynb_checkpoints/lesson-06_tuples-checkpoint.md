@@ -223,14 +223,14 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 del fruits
 ```
 
-🌕 You are so brave, you made it to this far. You have just completed lesson 6 challenges and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
+🌕 You are so brave, you made it to this far. You have just completed lesson 6 and you are 6 steps a head in to your way to greatness. Now do some exercises for your brain and for your muscle.
 
 ## 💻 Exercises: Lesson 6
 
 ### Exercises: Level 1
 
 1. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine).
-2. Join _brothers_ and _sisters_ tuples and assign it to siblings.
+2. Join _brothers_ and _sisters_ tuples and assign it to _siblings_.
 3. Modify the _siblings_ tuple and add the name of your father and mother and assign it to _family_members_.
 4. Unpack siblings and parents from _family_members_.
 5. Create _fruits_, _vegetables_ and _animal_ products tuples. Join the three tuples and assign it to a variable called _food_stuff_tp_.
@@ -252,4 +252,4 @@ del fruits
 
 🎉 CONGRATULATIONS ! 🎉
 
-[lesson 7 >>](../07_Lesson_Sets/lesson-07_sets.md)
+[Lesson 7 >>](../07_Lesson_Sets/lesson-07_sets.md)

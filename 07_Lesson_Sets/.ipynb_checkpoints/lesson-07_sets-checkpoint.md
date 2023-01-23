@@ -372,7 +372,7 @@ dragon = {'d', 'r', 'a', 'g', 'o','n'}
 python.isdisjoint(dragon)  # False, there are common items {'o', 'n'}
 ```
 
-🌕 You are a rising star . You have just completed lesson 7 challenges and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 You are a rising star . You have just completed lesson 7 and you are 7 steps ahead in to your way to greatness. Now do some exercises for your brain and muscles.
 
 
 ## 💻 Exercises: Lesson 7
