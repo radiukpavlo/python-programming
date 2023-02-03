@@ -424,9 +424,9 @@ for number in range(6):
 8. Go to the data folder and use the [countries.py](https://github.com/radiukpavlo/python-programming/blob/main/data/countries.py) file. Loop through the countries and extract all the countries containing the word _land_.
 9. This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
 10. Go to the data folder and use the [countries_data.py](https://github.com/radiukpavlo/python-programming/blob/main/data/countries-data.py) file. 
-   1. What are the total number of languages in the data
-   2. Find the ten most spoken languages from the data
-   3. Find the 10 most populated countries in the world
+   * What are the total number of languages in the data?
+   * Find the ten most spoken languages from the data.
+   * Find the 10 most populated countries in the world.
 
 🎉 CONGRATULATIONS ! 🎉
 
