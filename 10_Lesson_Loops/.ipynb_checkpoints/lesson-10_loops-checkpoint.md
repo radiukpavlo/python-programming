@@ -415,6 +415,7 @@ for number in range(6):
 ### Exercises: Level 2
 
 6. Use for loop to iterate from 0 to 100 and print only even numbers.
+
 7. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
     ```sh
