@@ -430,6 +430,6 @@ for number in range(6):
 
 🎉 CONGRATULATIONS ! 🎉
 
-[Lesson 11 >>](../11_lesson_Functions/lesson-11_functions.md)
+[Lesson 11 >>](../11_Lesson_Functions/lesson-11_functions.md)
 
 
