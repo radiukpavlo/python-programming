@@ -13,7 +13,6 @@
   - [💻 Exercises: Lesson 10](#-exercises-lesson-10)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
-    - [Exercises: Level 3](#exercises-level-3)
 
 # 📘 Lesson 10
 
