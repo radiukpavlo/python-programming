@@ -395,7 +395,7 @@ print(sum_all_numbers(100)) # 5050
 ```
 
 12. Declare a function named _sum_of_odds_. It takes a number parameter and it adds all the odd numbers in that range.
-13. Declare a function named _sum_of_even_. It takes a number parameter and it adds all the even numbers in that - range.
+13. Declare a function named _sum_of_even_. It takes a number parameter and it adds all the even numbers in that range.
 14.  Declare a function named _evens_and_odds_. It takes a positive integer as parameter and it counts number of evens and odds in the number.
 
 ```py
@@ -404,8 +404,8 @@ print(sum_all_numbers(100)) # 5050
     # The number of evens are 51.
 ```
 
-15. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
-16. Call your function _is_empty_, it takes a parameter and it checks if it is empty or not
+15. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number.
+16. Call your function _is_empty_, it takes a parameter and it checks if it is empty or not.
 17. Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
 18. Write a functions called _unique_in_the_list_, which checks if all items are unique in the list.
 19. Write a function called _valid_python_variable_, which check if provided variable is a valid python variable.
