@@ -361,8 +361,8 @@ print(do_something(square_number, 3)) # 27
 1. Declare a function _add_two_numbers_. It takes two parameters and it returns a sum.
 2. Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates _area_of_circle_.
 3. Write a function called _add_all_nums_, which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not, do give a reasonable feedback.
-4. Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, _convert_celsius_to-fahrenheit_.
-5. Write a function called _check-season_. It takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+4. Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, _convert_celsius_to_fahrenheit_.
+5. Write a function called _check_season_. It takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
 6. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, _solve_quadratic_eqn_.
 7. Declare a function named _print_list_. It takes a list as a parameter and it prints out each element of the list.
 8. Declare a function named _capitalize_list_items_. It takes a list as a parameter and it returns a capitalized list of items.
