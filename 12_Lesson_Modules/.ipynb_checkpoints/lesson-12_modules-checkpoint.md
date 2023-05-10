@@ -110,7 +110,7 @@ Example of a script.py file:
 ```py
 import sys
 #print(sys.argv[0], argv[1],sys.argv[2])  # this line would print out: filename argument1 argument2
-print('Welcome {}. Enjoy  {} challenge!'.format(sys.argv[1], sys.argv[2]))
+print(f'Welcome {sys.argv[1]}. Enjoy  {sys.argv[2]} challenge!')
 ```
 
 Now to check how this script works I wrote in command line:
@@ -232,12 +232,12 @@ print(randint(5, 20)) # it returns a random integer number between [5, 20] inclu
 
 ### Exercises: Level 1
 
-1. Writ a function which generates a six digit/character random_user_id.
+1. Write a function which generates a six digit/character _random_user_id_.
    ```py
      print(random_user_id());
      '1ee33d'
    ```
-2. Modify the previous task. Declare a function named user_id_gen_by_user. It doesn’t take any parameters but it takes two inputs using input(). One of the inputs is the number of characters and the second input is the number of IDs which are supposed to be generated.
+2. Modify the previous task. Declare a function named _user_id_gen_by_user_. It doesn’t take any parameters but it takes two inputs using _input()_. One of the inputs is the number of characters and the second input is the number of IDs which are supposed to be generated.
    
 ```py
 print(user_id_gen_by_user()) # user input: 5 5
@@ -256,7 +256,7 @@ print(user_id_gen_by_user()) # 16 5
 #dIV0SSUTgAdKwStr
 ```
 
-3. Write a function named rgb_color_gen. It will generate rgb colors (3 values ranging from 0 to 255 each).
+3. Write a function named _rgb_color_gen_. It will generate rgb colors (3 values ranging from 0 to 255 each).
    
 ```py
 print(rgb_color_gen())
@@ -267,8 +267,8 @@ print(rgb_color_gen())
 
 ### Exercises: Level 2
 
-5. Write a function list_of_rgb_colors which returns any number of RGB colors in an array.
-6. Write a function generate_colors which can generate any number of hexa or rgb colors.
+5. Write a function _list_of_rgb_colors_, which returns any number of RGB colors in an array.
+6. Write a function _generate_colors_, which can generate any number of hexa or rgb colors.
 
 ```py
    generate_colors('hexa', 3) # ['#a3e12f','#03ed55','#eb3d2b'] 
@@ -277,7 +277,7 @@ print(rgb_color_gen())
    generate_colors('rgb', 1)  # ['rgb(33,79, 176)']
    ```
 
-7. Call your function shuffle_list, it takes a list as a parameter and it returns a shuffled list
+7. Call your function _shuffle_list_. It must take a list as a parameter and return a shuffled list.
 8. Write a function which returns an array of seven random numbers in a range of 0-9. All the numbers must be unique.
 
 🎉 CONGRATULATIONS ! 🎉
