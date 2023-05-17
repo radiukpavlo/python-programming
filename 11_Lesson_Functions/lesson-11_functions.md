@@ -401,7 +401,7 @@ print(sum_all_numbers(100)) # 5050
 ```py
     print(evens_and_odds(100))
     # The number of odds are 50.
-    # The number of evens are 51.
+    # The number of evens are 50.
 ```
 
 15. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number.
