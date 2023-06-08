@@ -8,7 +8,7 @@
     - [Lambda Function Inside Another Function](#lambda-function-inside-another-function)
   - [💻 Exercises: Day 13](#-exercises-day-13)
 
-# 📘 Day 13
+# 📘 Lesson 13
 
 ## List Comprehension
 
