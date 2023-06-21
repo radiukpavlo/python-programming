@@ -1,23 +1,6 @@
-<div align="center">
-  <h1> 30 Days Of Python: Day 14 - Higher Order Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
+[<< Lesson 13](../14_Lesson_Higher_order_functions/lesson-14_higher_order_functions.md)
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small>Second Edition: July, 2021</small>
-  </sub>
-</div>
-</div>
-
-[<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
-
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
-- [📘 Day 14](#-day-14)
+- [📘 Lesson 14](#-lesson-14)
   - [Higher Order Functions](#higher-order-functions)
     - [Function as a Parameter](#function-as-a-parameter)
     - [Function as a Return Value](#function-as-a-return-value)
@@ -30,12 +13,12 @@
     - [Python - Map Function](#python---map-function)
     - [Python - Filter Function](#python---filter-function)
     - [Python - Reduce Function](#python---reduce-function)
-  - [💻 Exercises: Day 14](#-exercises-day-14)
+  - [💻 Exercises: Lesson 14](#-exercises-lesson-14)
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
 
-# 📘 Day 14
+# 📘 Lesson 14
 
 ## Higher Order Functions
 
@@ -203,7 +186,7 @@ def print_full_name(first_name, last_name, country):
     print("I am {} {}. I love to teach.".format(
         first_name, last_name, country))
 
-print_full_name("Asabeneh", "Yetayeh",'Finland')
+print_full_name("Pavlo", "Radiuk",'Ukraine')
 ```
 
 ## Built-in Higher Order Functions
@@ -220,7 +203,7 @@ The map() function is a built-in function that takes a function and iterable as 
     map(function, iterable)
 ```
 
-**Example:1**
+**Example:**
 
 ```py
 numbers = [1, 2, 3, 4, 5] # iterable
@@ -233,7 +216,7 @@ numbers_squared = map(lambda x : x ** 2, numbers)
 print(list(numbers_squared))    # [1, 4, 9, 16, 25]
 ```
 
-**Example:2**
+**Example:**
 
 ```py
 numbers_str = ['1', '2', '3', '4', '5']  # iterable
@@ -241,20 +224,20 @@ numbers_int = map(int, numbers_str)
 print(list(numbers_int))    # [1, 2, 3, 4, 5]
 ```
 
-**Example:3**
+**Example:**
 
 ```py
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['Pavlo', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 
 def change_to_upper(name):
     return name.upper()
 
 names_upper_cased = map(change_to_upper, names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['PAVLO', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 
 # Let us apply it with a lambda function
 names_upper_cased = map(lambda name: name.upper(), names)
-print(list(names_upper_cased))    # ['ASABENEH', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
+print(list(names_upper_cased))    # ['PAVLO', 'LIDIYA', 'ERMIAS', 'ABRAHAM']
 ```
 
 What actually map does is iterating over a list. For instance, it changes the names to upper case and returns a new list.
@@ -268,7 +251,7 @@ The filter() function calls the specified function which returns boolean for eac
     filter(function, iterable)
 ```
 
-**Example:1**
+**Example:**
 
 ```py
 # Lets filter only even nubers
@@ -299,20 +282,21 @@ print(list(odd_numbers))       # [1, 3, 5]
 
 ```py
 # Filter long name
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']  # iterable
+names = ['Pavlo', 'Lidiya', 'Ermias', 'Abraham']  # iterable
 def is_name_long(name):
     if len(name) > 7:
         return True
     return False
 
 long_names = filter(is_name_long, names)
-print(list(long_names))         # ['Asabeneh']
+print(list(long_names))         # ['Pavlo']
 ```
 
 ### Python - Reduce Function
 
 The _reduce()_ function is defined in the functools module and we should import it from this module. Like map and filter it takes two parameters, a function and an iterable. However, it does not return another iterable, instead it returns a single value.
-**Example:1**
+
+**Example:**
 
 ```py
 numbers_str = ['1', '2', '3', '4', '5']  # iterable
@@ -323,48 +307,42 @@ total = reduce(add_two_nums, numbers_str)
 print(total)    # 15
 ```
 
-## 💻 Exercises: Day 14
+## 💻 Exercises: Lesson 14
 
 ```py
-countries = ['Estonia', 'Finland', 'Sweden', 'Denmark', 'Norway', 'Iceland']
-names = ['Asabeneh', 'Lidiya', 'Ermias', 'Abraham']
+countries = ['Ukraine', 'Turkey', 'Poland', 'Lithuania', 'Latvia', 'Estonia']
+names = ['Pavlo', 'Lidiya', 'Ermias', 'Abraham']
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```
 
 ### Exercises: Level 1
 
-1. Explain the difference between map, filter, and reduce.
-2. Explain the difference between higher order function, closure and decorator
-3. Define a call function before map, filter or reduce, see examples.
-4. Use for loop to print each country in the countries list.
-5. Use for to print each name in the names list.
-6. Use for to print each number in the numbers list.
+1. Use for loop to print each country in the countries list.
+2. Use for to print each name in the names list.
+3. Use for to print each number in the numbers list.
+4. Use map to create a new list by changing each country to uppercase in the countries list.
+5. Use map to create a new list by changing each number to its square in the numbers list.
+6. Use map to change each name to uppercase in the names list.
+7. Use filter to filter out countries containing 'land'.
+8. Use filter to filter out countries having exactly six characters.
+9. Use filter to filter out countries containing six letters and more in the country list.
+10. Use filter to filter out countries starting with an 'E'.
 
 ### Exercises: Level 2
 
-1. Use map to create a new list by changing each country to uppercase in the countries list
-1. Use map to create a new list by changing each number to its square in the numbers list
-1. Use map to change each name to uppercase in the names list
-1. Use filter to filter out countries containing 'land'.
-1. Use filter to filter out countries having exactly six characters.
-1. Use filter to filter out countries containing six letters and more in the country list.
-1. Use filter to filter out countries starting with an 'E'
-1. Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
-1. Declare a function called get_string_lists which takes a list as a parameter and then returns a list containing only string items.
-1. Use reduce to sum all the numbers in the numbers list.
-1. Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and Iceland are north European countries
-1. Declare a function called categorize_countries that returns a list of countries with some common pattern (you can find the [countries list](https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
-1. Create a function returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
-2. Declare a get_first_ten_countries function - it returns a list of first ten countries from the countries.js list in the data folder.
-1. Declare a get_last_ten_countries function that returns the last ten countries in the countries list.
-
-### Exercises: Level 3
-
-1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
+11. Chain two or more list iterators (eg. arr.map(callback).filter(callback).reduce(callback))
+12. Declare a function called _get_string_lists_ which takes a list as a parameter and then returns a list containing only string items.
+13. Use reduce to sum all the numbers in the numbers list.
+14. Use reduce to concatenate all the countries and to produce this sentence: Ukraine, Turkey, Poland, Lithuania, Latvia, Estonia are north European countries
+15. Declare a function called _categorize_countries_ that returns a list of countries with some common pattern (you can find the [countries list](https://raw.githubusercontent.com/radiukpavlo/python-programming/main/data/countries.py) in this repository as countries.js(eg 'land', 'ia', 'island', 'stan')).
+16. Create a function called _return_countries_ returning a dictionary, where keys stand for starting letters of countries and values are the number of country names starting with that letter.
+17. Declare a _get_first_ten_countries_ function - it returns a list of first ten countries from the countries.js list in the data folder.
+18. Declare a _get_last_ten_countries_ function that returns the last ten countries in the countries list.
+19. Use the [countries_data.py](https://raw.githubusercontent.com/radiukpavlo/python-programming/main/data/countries-data.py) file and follow the tasks below:
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.
 
 🎉 CONGRATULATIONS ! 🎉
 
-[<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
+[Lesson 15>>](../15_Lesson_Python_type_errors/lesson-15_python_type_errors.md)

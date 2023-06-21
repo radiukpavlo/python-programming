@@ -6,7 +6,7 @@
   - [Lambda Function](#lambda-function)
     - [Creating a Lambda Function](#creating-a-lambda-function)
     - [Lambda Function Inside Another Function](#lambda-function-inside-another-function)
-  - [💻 Exercises: Day 13](#-exercises-day-13)
+  - [💻 Exercises: Lesson 13](#-exercises-lesson-13)
 
 # 📘 Lesson 13
 
@@ -133,9 +133,9 @@ two_power_of_five = power(2)(5)
 print(two_power_of_five)  # 32
 ```
 
-🌕 Keep up the good work. Keep the momentum going, the sky is the limit! You have just completed day 13 challenges and you are 13 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
+🌕 Keep up the good work. Keep the momentum going, the sky is the limit! You have just completed Lesson 13 challenges and you are 13 steps a head in to your way to greatness. Now do some exercises for your brain and muscles.
 
-## 💻 Exercises: Day 13
+## 💻 Exercises: Lesson 13
 
 1. Filter only negative and zero in the list using list comprehension
    ```py
