@@ -1,4 +1,4 @@
-[<< Lesson 13](../14_Lesson_Higher_order_functions/lesson-14_higher_order_functions.md)
+[<< Lesson 13](../13_Lesson_List_comprehension/lesson-13_list_comprehension.md)
 
 - [📘 Lesson 14](#-lesson-14)
   - [Higher Order Functions](#higher-order-functions)
